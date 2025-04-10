@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vehicle Detection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin-top: 20px;
+        }
+        .download-btn {
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h2>Upload a Video for Vehicle Detection</h2>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="video" accept="video/*">
+        <input type="submit" value="Upload and Detect">
+    </form>
+
+    {% if result_path %}
+        <div class="container">
+            <h3>Result Video:</h3>
+            <p>The processed video is ready for download:</p>
+            <a class="download-btn" href="{{ url_for('static', filename='uploads/' + result_path.split('/')[-1]) }}" download>
+                Download Processed Video
+            </a>
+            <p>Total Vehicles Counted: {{ count }}</p>
+        </div>
+    {% endif %}
+</body>
+</html>
