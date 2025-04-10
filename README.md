@@ -135,6 +135,3 @@ If you don’t already have one, generate it using:
 pip freeze > requirements.txt
 
 
----
-
-Let me know if you'd like me to prepare a ZIP of the whole ready-to-upload project, or help you publish this on GitHub step-by-step.
