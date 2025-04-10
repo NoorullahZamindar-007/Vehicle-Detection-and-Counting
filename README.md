@@ -1,6 +1,6 @@
 # Vehicle-Detection-and-Counting
 Vehicle Detection and Counting with Flask
-Here's a professional `README.md` file you can include when uploading your Flask Vehicle Detection app to GitHub. It explains everything from setup to usage and contribution.
+
 
 ---
 
