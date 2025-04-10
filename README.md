@@ -27,20 +27,34 @@ This is a Flask-based web application that performs vehicle detection and counti
 
 `
 vehicle_app/
+
 │
 ├── static/
+
 │   └── uploads/               # Stores uploaded and processed videos
+
 │
+
 ├── templates/
+
 │   └── index.html             # Web UI
+
 │
 ├── haar_cascades/
+
 │   ├── cars.xml               # Car detection Haar cascade
+
 │   └── Bus_front.xml          # Bus detection Haar cascade
+
 │
+
 ├── app.py                     # Flask backend
+
 ├── vehicle_detect.py          # Vehicle detection logic
+
 └── README.md                  # This file
+
+
 ``
 
 ---
