@@ -4,7 +4,7 @@ Vehicle Detection and Counting with Flask
 
 ---
 
-### ✅ `README.md`
+
 
 ``markdown
 # 🚗 Vehicle Detection and Counting with Flask
