@@ -10,7 +10,7 @@ Vehicle Detection and Counting with Flask
 # 🚗 Vehicle Detection and Counting with Flask
 
 This is a Flask-based web application that performs vehicle detection and counting in uploaded video files using OpenCV and Haar Cascade Classifiers.
-
+ 
 ---
 
 ## 🔍 Features
